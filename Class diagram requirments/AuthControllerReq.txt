@@ -1,0 +1,27 @@
+Class AuthController:
+
+- Overview:
+	The AuthController class is a presentation class, responsible for handeling all the (WEB) user credentials authentication and 
+        account configurations. The class is accessible to the clients of role : user.
+
+- Requirments:
+
+1- The AuthController has a UserService object.
+
+2- The AuthController has a Configuration object. (asp.net core class, handle server configurations).
+
+3- The AuthController has a Mapper object.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+3- The AuthController handles Registeration requests and sends verification mails.
+
+4- The AuthController handles Login requests, sends an Access token on successful process.
+
+5- The AuthController handels Token Authentication on client website revisits.
+
+6- The AuthController handels Confirming emails.
+
+7- The AuthController handels Changing/reset Password Requests.
+
+8- The AuthController handels User Info editing requests.

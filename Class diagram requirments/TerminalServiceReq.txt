@@ -1,0 +1,17 @@
+-class diagram TerminalUserService requirements:
+
+1- A TerminalUserService is a UserService.
+
+2- A TerminalUserService has a TerminalLog object.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+-Responsibilities:
+
+3- The TerminalUserService class is Responsible for terminal logins using pairingID. (TER)
+
+4- The TerminalUserService class is responsible for checking for updates.(TER)
+
+5- The TerminalUserService class is responsible for getting associated user terminals status. (WEB/POS)
+
+6- The TerminalUserService class is responsible for getting terminal details. (WEB/POS).

@@ -1,0 +1,27 @@
+Class TER_MenuConfigurationController:
+
+
+- Overview:
+	The Terminal Menu configuration class is a presentation class, it is concerned with handeling Menu items, categories and
+	menu Items Options requests. Client role: user.
+
+- Requirments:
+
+1- The TER_MenuConfigurationController has a MenuConfigurationService Object.
+
+2- The TER_MenuConfigurationController has a Mapper object.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+3- The TER_MenuConfigurationController Handles Creating new Menu Item/s (main item, options, extras).
+
+4- The TER_MenuConfigurationController Handles Requesting Menu Item/s.
+
+5- The TER_MenuConfigurationController Handles Updating Menu Item/s data.
+
+6- The TER_MenuConfigurationController Handles Deleting Existing Menu Item/s data (has element id to delete and a type to specify if the element is an option, extra, main item data).
+
+7- The TER_MenuConfigurationController Handles Creating new Category.
+
+8- The TER_MenuConfigurationController Handles Deleting Existing Category.
+

@@ -1,0 +1,31 @@
+-class diagram userservice requirements:
+
+1- The UserService class has an IUserRepository object. ** 
+
+2- The UserService class has an IConfiguration object (A refrence to a Configuration class object located in Microsoft.Extensions DLL). **
+
+3- The UserService class has an IEmailService object. **
+
+4- The UserService class has an IMapper object (A refrence to a Mapper class object located in Microsoft.Extensions DLL). ** 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+- Responsibilities:
+
+6- The UserService class is Responsible for Registering new Users.(WEB)
+
+7- The UserService class is Responsible for Logins of existing users.(WEB)
+
+8- The UserService class is Responsible for Sending confirmation Mails.(WEB)
+
+9- The UserService class is Responsible for Confirming Webencoded links (used to validate users).(WEB)
+
+10-The UserService class is Responsible for Reseting passwords.(WEB)
+
+11-The UserService class is Responsible for Updating User data.(WEB)
+
+* Abriviations:
+    -IF = Identity Framework
+    -ORM = object relational mapping
+
+** object is injected in runtime

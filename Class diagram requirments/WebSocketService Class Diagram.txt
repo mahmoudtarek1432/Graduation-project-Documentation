@@ -1,0 +1,21 @@
+Class WebSocketService:
+
+
+- Overview:
+	The WebSocket Service class handels upgrading http connection and communication with between the pos and 
+Terminals.
+
+- Requirments:
+
+1- The WebSocketService has a WebSocketManager object
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+2- The WebSocketService handles Upgrading http connection to webSocket connection.
+
+3- The WebSocketService handles closing websocket connection.
+
+3- The WebSocketService handles sending messages.
+
+
+	

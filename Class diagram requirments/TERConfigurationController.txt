@@ -1,0 +1,26 @@
+Class TER_UIConfiguration Controller:
+
+
+- Overview:
+	The Terminal ui configuration class is a presentation class, it is concerned with handeling UI configuration/theme requests. The Client's
+        role: user.
+
+- Requirments:
+
+1- The TER_UIConfigurationController has a UIConfigurationService Object.
+
+2- The TER_UIConfigurationController has a Mapper object.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+2- The TER_UIConfigurationController Handles Creating new configuration for first time users.
+
+3- The TER_UIConfigurationController Handles Updating UI data and (under further work) notify connected terminals.
+
+3- The TER_UIConfigurationController Handles uploading / updating resturant icon.
+
+4- The TER_UIConfigurationController Handles requests for getting user UI theme configuration.
+
+5- The TER_UIConfigurationController Handles requests for getting UI version (TER).
+
+	

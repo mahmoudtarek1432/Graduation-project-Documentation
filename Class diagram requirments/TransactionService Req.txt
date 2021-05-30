@@ -1,0 +1,25 @@
+Class TransactionService:
+
+
+- Overview:
+	The TransactionService class handels websockets fault tolerance by caching the connection id, websocket
+and the socket message, transactions have a counter for failed requests, upon reaching 3 times the transaction 
+gets destroyed.
+
+- Requirments:
+
+1- The Transaction Service has a TransactionRepository object
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+2- The TransactionService handles creating a new transaction, takes the (to) device Id, an Enum that states weather
+the device is a POS or a Terminal, the sent message, and an orderId (if it has one). 
+
+3- The TransactionService handles Providing Current ongoing transactions.
+
+4- The TransactionService handles dropping transactions (Upon confirmation.
+
+4- The TransactionService handles increasing transaction's Faild Tries.
+
+
+	

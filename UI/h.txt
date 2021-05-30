@@ -1,0 +1,15 @@
+Website Pages:
+
+1- home page.
+
+2- registeration page/login page.
+
+3- documentation page.
+
+---------- after login -----------
+
+4- setup page.
+
+5- view items page.
+
+6- contact us.

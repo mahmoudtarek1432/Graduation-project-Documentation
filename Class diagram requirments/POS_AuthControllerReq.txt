@@ -1,0 +1,23 @@
+Class POS_Auth Controller:
+
+
+- Overview:
+	The pos authentication controller is a presentation class, it is concerned with with the login and logout operations of a terminal primarly.
+	role: user.
+
+- Requirments:
+
+1- The POS_AuthController has a POS_AuthService Object.
+
+2- The Terminal_AuthController has a WebsocketManager Object.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+3- The Pos_AuthController Handles logging in, when logged in the Pos connection should get upgraded to a websocket protocol
+   and Then The Pos's status should be updated in the DB.
+
+4- The Pos_AuthController Handles logout, the websocket should be closed, The Pos's status should be updated in the DB.
+
+5- The Pos_AuthController Handles notifing Pos with status update, can be used in logging in or logout.
+
+6- The Pos_AuthController Handles if the auth token is valid.

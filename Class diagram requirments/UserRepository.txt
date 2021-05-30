@@ -1,0 +1,17 @@
+- class diagram UserRepository requirments:
+
+1- The UserService class has a UserManager object (IF*) of generic Type <CustomIdentityUser> (ORM* Database entity).
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+2- The UserRepository class can insert a new user.
+
+3- The UserRepository class can select single user by userid.
+
+4- The UserRepository class can select single user by Email.
+
+5- The UserRepository class can update user record.
+
+6- The UserRepository class can delete user record.
+
+7- The UserRepository class can save changes to database.

@@ -1,0 +1,23 @@
+Class Terminal_Auth Controller:
+
+
+- Overview:
+	The Terminal authentication controller is a presentation class, it is concerned with with the login and logout operations of a terminal primarly.
+	role: user.
+
+- Requirments:
+
+1- The Terminal_AuthController has a Terminal_AuthService Object.
+
+2- The Terminal_AuthController has a WebsocketManager Object.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+3- The Terminal_AuthController Handles logging in, when logged in the Terminal connection should get upgraded to a websocket protocol
+   and Then The Terminal's status should get updated in the DB.
+
+4- The Terminal_AuthController Handles logout, the websocket should be closed, also the Pos Gets Notified.
+
+5- The Terminal_AuthController Handles notifing Pos with status update, can be used in logging in or logout.
+
+6- The Terminal_AuthController Handles if the auth token is valid.
